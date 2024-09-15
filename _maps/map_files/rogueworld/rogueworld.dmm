@@ -426,13 +426,9 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/mountains)
 "dD" = (
-/obj/item/reagent_containers/food/snacks/crow{
-	dir = 1
-	},
-/turf/open/floor/rogue/rooftop{
-	dir = 1
-	},
-/area/rogue/outdoors/mountains)
+/obj/item/natural/stone,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/woods)
 "dG" = (
 /obj/structure/rack/rogue,
 /obj/item/natural/cloth,
@@ -744,6 +740,12 @@
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/woods)
+"LZ" = (
+/obj/item/reagent_containers/food/snacks/crow{
+	dir = 1
+	},
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/outdoors/mountains)
 "Mo" = (
 /obj/structure/chair/wood/rogue,
 /turf/open/floor/rogue/ruinedwood,
@@ -842,9 +844,6 @@
 "Ww" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
-/obj/item/clothing/cloak/stabard/bog{
-	name = "bogman tabard (Rae)"
-	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
 "Xg" = (
@@ -213889,7 +213888,7 @@ Fh
 ct
 ab
 Ye
-lE
+nC
 iZ
 vc
 vc
@@ -214399,7 +214398,7 @@ cj
 ab
 ac
 cj
-cj
+dD
 ab
 ab
 xw
@@ -278911,7 +278910,7 @@ bp
 bp
 bp
 bp
-dD
+Yt
 zt
 zt
 zt
@@ -279169,7 +279168,7 @@ bp
 bp
 bp
 Yt
-dy
+LZ
 dy
 dy
 dy
@@ -279425,7 +279424,7 @@ bp
 bp
 bp
 bp
-Yt
+rU
 dy
 dy
 dy
@@ -283276,11 +283275,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+zt
+zt
+zt
+zt
 xV
 bp
 bp
@@ -283533,11 +283532,11 @@ bp
 bp
 bp
 bp
-xV
+Yt
 rU
-xV
-xV
-xV
+dy
+dy
+dy
 xV
 bp
 bp
@@ -283790,11 +283789,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+dy
+dy
+dy
+dy
 xV
 bp
 bp
@@ -284047,11 +284046,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+dy
+dy
+dy
+dy
 xV
 bp
 bp
@@ -284304,11 +284303,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+Mw
+Mw
+Mw
+Mw
 xV
 bp
 bp
