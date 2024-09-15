@@ -423,13 +423,23 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "dy" = (
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/outdoors/mountains)
+"dD" = (
 /obj/item/reagent_containers/food/snacks/crow{
 	dir = 1
 	},
-/turf/open/floor/rogue/rooftop,
+/turf/open/floor/rogue/rooftop{
+	dir = 1
+	},
 /area/rogue/outdoors/mountains)
 "dG" = (
 /obj/structure/rack/rogue,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/needle/thorn,
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
 "el" = (
@@ -447,7 +457,7 @@
 "fo" = (
 /obj/structure/fluff/statue/tdummy{
 	name = "Zizo";
-	desc = "According to rumors, Sir Snejok trained with this practice dummy, but lost. Maybe you'll have better luck?"
+	desc = "According to rumors, Sir Snowball trained with this practice dummy, but lost. Maybe you'll have better luck?"
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
@@ -492,11 +502,8 @@
 /turf/closed/wall/mineral/rogue/decowood,
 /area/rogue/indoors)
 "lX" = (
-/obj/machinery/light/rogue/torchholder{
-	dir = 8
-	},
-/turf/open/floor/rogue/grass,
-/area/rogue/outdoors/woods)
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains)
 "mC" = (
 /obj/structure/closet/crate/chest,
 /obj/item/seeds/wheat/oat,
@@ -546,8 +553,7 @@
 /area/rogue/indoors)
 "rc" = (
 /mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	real_name = "Master Fisher";
-	skel_outfit = /datum/outfit/job/roguetown/adventurer/fishermaster;
+	skel_outfit = /datum/outfit/job/roguetown/adventurer/fisher;
 	gender = "female"
 	},
 /turf/open/floor/rogue/ruinedwood,
@@ -609,7 +615,6 @@
 "uX" = (
 /obj/structure/bed/rogue,
 /obj/effect/decal/cleanable/blood/old,
-/obj/item/natural/cloth,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
 "vc" = (
@@ -625,6 +630,11 @@
 /area/rogue/outdoors/woods)
 "xV" = (
 /turf/open/floor/rogue/rooftop,
+/area/rogue/outdoors/mountains)
+"zt" = (
+/turf/open/floor/rogue/rooftop{
+	dir = 8
+	},
 /area/rogue/outdoors/mountains)
 "zK" = (
 /obj/structure/fluff/railing/wood{
@@ -739,11 +749,10 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
 "Mw" = (
-/obj/structure/rack/rogue,
-/obj/effect/decal/cleanable/cobweb,
-/obj/item/reagent_containers/glass/bottle/waterskin,
-/turf/open/floor/rogue/herringbone,
-/area/rogue/indoors)
+/turf/open/floor/rogue/rooftop{
+	dir = 4
+	},
+/area/rogue/outdoors/mountains)
 "MH" = (
 /obj/machinery/light/rogue/torchholder{
 	dir = 4
@@ -767,14 +776,19 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
+"Pk" = (
+/obj/structure/rack/rogue,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/indoors)
 "Pw" = (
 /turf/closed/wall/mineral/rogue/stone/moss,
 /area/rogue/indoors)
 "PL" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
-/obj/item/clothing/cloak/tabard/knight/guard{
-	name = "knight tabard (Snejok)"
+/obj/item/clothing/cloak/tabard/crusader/pestra{
+	name = "tabard (Snowball)"
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
@@ -841,6 +855,11 @@
 /obj/item/natural/bundle/stick,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
+"Yt" = (
+/turf/open/floor/rogue/rooftop{
+	dir = 1
+	},
+/area/rogue/outdoors/mountains)
 
 (1,1,1) = {"
 ae
@@ -211288,7 +211307,7 @@ al
 ac
 ac
 nC
-ol
+Pk
 MH
 Rj
 Fg
@@ -211301,7 +211320,7 @@ LH
 bH
 aF
 nC
-Mw
+dG
 dG
 tT
 no
@@ -217465,7 +217484,7 @@ ai
 ai
 ab
 ac
-lX
+cj
 cj
 cj
 Eq
@@ -276566,12 +276585,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+lX
+lX
+lX
+lX
+lX
 bp
 bp
 bp
@@ -276579,12 +276598,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+lX
+lX
+lX
+lX
+lX
 bp
 bp
 bp
@@ -276823,25 +276842,25 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+dy
+dy
+dy
+dy
+lX
+lX
+dy
+lX
 bp
 bp
-bp
-bp
-bp
-bp
-bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+lX
+lX
+dy
+dy
+dy
+dy
+lX
 bp
 bp
 bp
@@ -277080,12 +277099,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+dy
+dy
+dy
+dy
+lX
 bp
 bp
 bp
@@ -277093,12 +277112,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+dy
+dy
+dy
+dy
+lX
 bp
 bp
 bp
@@ -277337,12 +277356,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+dy
+dy
+dy
+dy
+lX
 bp
 bp
 bp
@@ -277350,12 +277369,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+dy
+dy
+dy
+dy
+lX
 bp
 bp
 bp
@@ -277594,25 +277613,25 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+dy
+dy
+dy
+dy
+lX
+lX
 bp
 bp
 bp
 bp
-bp
-bp
-bp
-xV
-xV
-xV
-xV
-xV
-xV
+dy
+lX
+lX
+dy
+dy
+dy
+dy
+lX
 bp
 bp
 bp
@@ -277851,12 +277870,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+lX
+lX
+lX
+lX
+lX
 bp
 bp
 bp
@@ -277864,12 +277883,12 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
-xV
+lX
+lX
+lX
+lX
+lX
+lX
 bp
 bp
 bp
@@ -278892,11 +278911,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+dD
+zt
+zt
+zt
+zt
 xV
 bp
 bp
@@ -279149,11 +279168,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+dy
+dy
+dy
+dy
 xV
 bp
 bp
@@ -279406,11 +279425,11 @@ bp
 bp
 bp
 bp
-xV
+Yt
 dy
-xV
-xV
-xV
+dy
+dy
+dy
 xV
 bp
 bp
@@ -279663,11 +279682,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+dy
+dy
+dy
+dy
 xV
 bp
 bp
@@ -279920,11 +279939,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+dy
+dy
+dy
+dy
 xV
 bp
 bp
@@ -280177,11 +280196,11 @@ bp
 bp
 bp
 bp
-xV
-xV
-xV
-xV
-xV
+Yt
+Mw
+Mw
+Mw
+Mw
 xV
 bp
 bp
