@@ -57,6 +57,7 @@ SUBSYSTEM_DEF(job)
 			continue
 		if(!job.map_check())	//Even though we initialize before mapping, this is fine because the config is loaded at new
 			testing("Removed [job.type] due to map config");
+			to_chat(world, span_boldannounce("Lmao [J] is out of this loop."));
 			continue
 		occupations += job
 		name_occupations[job.title] = job
