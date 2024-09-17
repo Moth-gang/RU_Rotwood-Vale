@@ -136,6 +136,7 @@
 */
 	var/PQ_boost_divider = 0
 
+	var/gamemap = "Rockhill"
 
 /datum/job/proc/special_job_check(mob/dead/new_player/player)
 	return TRUE
@@ -330,8 +331,11 @@
 /datum/job/proc/config_check()
 	return TRUE
 
-/datum/job/proc/map_check()
-	return TRUE
+/datum/job/proc/map_check(var/mode = gamemap)
+	var/map = SSmapping.config.map_name
+	if (map == mode)
+		return TRUE
+	return FALSE
 
 /datum/job/proc/radio_help_message(mob/M)
 	to_chat(M, "<b>Prefix your message with :h to speak on your department's radio. To see other prefixes, look closely at your headset.</b>")
