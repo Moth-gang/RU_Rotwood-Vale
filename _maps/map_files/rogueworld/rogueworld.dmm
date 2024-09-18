@@ -422,12 +422,18 @@
 /obj/structure/gravemarker,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
+"cS" = (
+/turf/closed/wall/mineral/rogue/wooddark/window,
+/area/rogue/indoors/town/manor)
 "da" = (
 /obj/structure/bars/passage{
 	redstone_id = blacksmith1
 	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"dk" = (
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/town)
 "dy" = (
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/mountains)
@@ -445,18 +451,32 @@
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
 "el" = (
-/obj/structure/bed/rogue{
-	pixel_y = 0
-	},
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/rogue/ruinedwood,
-/area/rogue/indoors)
+/obj/structure/mineral_door/wood/donjon/stone,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "ew" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/woodstaff,
 /obj/item/rogueweapon/woodstaff,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
+"eB" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/adventurer/crusader;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Crusader (2)";
+	gender = "female"
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
+"fh" = (
+/obj/structure/mineral_door/wood,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
 "fo" = (
 /obj/structure/fluff/statue/tdummy{
 	name = "Zizo";
@@ -473,8 +493,15 @@
 /area/rogue/outdoors/woods)
 "fF" = (
 /obj/machinery/light/rogue/hearth,
+/obj/item/cooking/pan,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
+"fN" = (
+/obj/structure/winch{
+	redstone_id = hearthstone1
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
 "fW" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/rogue/twig,
@@ -497,8 +524,33 @@
 /area/rogue/indoors)
 "iZ" = (
 /obj/machinery/light/rogue/oven/south,
+/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"jq" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/water/cleanshallow,
+/area/rogue/outdoors/town)
+"jA" = (
+/obj/machinery/light/rogue/wallfire/candle/blue/l,
+/obj/structure/closet/crate/drawer{
+	pixel_x = -3
+	},
+/obj/item/natural/bundle/cloth,
+/obj/item/needle,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
+"jL" = (
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/mountains)
 "kg" = (
 /obj/machinery/light/rogue/torchholder{
 	dir = 4
@@ -509,6 +561,11 @@
 /obj/machinery/light/rogue/firebowl/standing/blue,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
+"kr" = (
+/obj/machinery/light/rogue/torchholder/c,
+/obj/item/natural/bundle/stick,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "kQ" = (
 /obj/structure/fluff/statue/tdummy{
 	name = "Matthios";
@@ -536,6 +593,12 @@
 "lB" = (
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors)
+"lC" = (
+/obj/structure/winch{
+	redstone_id = hearthstone2
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
 "lE" = (
 /turf/closed/wall/mineral/rogue/decowood,
 /area/rogue/indoors)
@@ -546,6 +609,10 @@
 "lX" = (
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains)
+"mn" = (
+/obj/structure/ladder,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "mC" = (
 /obj/structure/closet/crate/chest,
 /obj/item/seeds/wheat/oat,
@@ -581,12 +648,27 @@
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
 	},
+/obj/item/reagent_containers/glass/pot,
 /obj/machinery/light/rogue/torchholder{
 	dir = 8
 	},
-/obj/item/storage/roguebag,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
+"oE" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/turf/open/transparent/openspace,
+/area/rogue/outdoors/mountains)
+"py" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/mountains)
 "pA" = (
 /obj/structure/closet/dirthole/closed/loot,
 /obj/structure/gravemarker{
@@ -596,22 +678,48 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "qn" = (
-/obj/structure/chair/wood/rogue{
-	dir = 1
-	},
+/obj/structure/bed/rogue,
+/obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
-"rc" = (
+"qx" = (
+/obj/structure/gate/bars{
+	density = 0;
+	redstone_id = hearthstone1
+	},
+/turf/open/floor/rogue/metal,
+/area/rogue/indoors/town/manor)
+"qR" = (
+/obj/structure/chair/wood/rogue/throne,
 /mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/adventurer/fisher;
+	skel_outfit = /datum/outfit/job/roguetown/adventurer/noble;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Noble";
 	gender = "female"
 	},
-/turf/open/floor/rogue/ruinedwood,
-/area/rogue/indoors)
+/obj/structure/fluff/walldeco/bigpainting/lake,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
+"qZ" = (
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
+"rc" = (
+/turf/closed/mineral/random/rogue,
+/area/rogue/outdoors/mountains)
 "rq" = (
 /obj/structure/mineral_door/wood/red,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
+"rv" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/transparent/openspace,
+/area/rogue/outdoors/mountains)
 "rB" = (
 /obj/structure/fluff/statue/tdummy{
 	name = "Graggar";
@@ -619,6 +727,10 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
+"rN" = (
+/obj/structure/fluff/wallclock,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
 "rU" = (
 /turf/closed/wall/mineral/rogue/craftstone,
 /area/rogue/outdoors/mountains)
@@ -658,6 +770,15 @@
 /obj/item/seeds/bean,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"tw" = (
+/obj/machinery/light/rogue/torchholder{
+	dir = 8
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
+"tF" = (
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
 "tT" = (
 /obj/machinery/light/rogue/torchholder{
 	dir = 4
@@ -691,11 +812,18 @@
 /obj/item/rogueweapon/sickle,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"uB" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/indoors)
 "uC" = (
 /obj/machinery/light/rogue/torchholder/l,
 /obj/item/roguebin/water/gross,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"uJ" = (
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "uX" = (
 /obj/structure/bed/rogue,
 /obj/effect/decal/cleanable/blood/old,
@@ -704,6 +832,23 @@
 "vc" = (
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"vq" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/town)
+"vV" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/glass/cup/steel,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "wk" = (
 /obj/machinery/anvil,
 /turf/open/floor/rogue/naturalstone,
@@ -732,18 +877,46 @@
 /obj/structure/fluff/millstone,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
+"xz" = (
+/obj/machinery/light/rogue/torchholder/c,
+/turf/open/transparent/openspace,
+/area/rogue/outdoors/mountains)
 "xV" = (
 /turf/open/floor/rogue/rooftop,
 /area/rogue/outdoors/mountains)
+"yc" = (
+/obj/structure/bed/rogue,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "yv" = (
 /obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/woods)
+"yy" = (
+/obj/structure/lever/wall{
+	dir = 8;
+	name = "bridge lever";
+	redstone_id = "hearthstone3"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
 "zt" = (
 /turf/open/floor/rogue/rooftop{
 	dir = 8
 	},
 /area/rogue/outdoors/mountains)
+"zI" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/transparent/openspace,
+/area/rogue/indoors/town/manor)
 "zK" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -753,9 +926,28 @@
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
+"AQ" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated{
+	faction = list("undead")
+	},
+/obj/machinery/light/rogue/wallfire/candle/blue/r,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "AR" = (
 /turf/open/floor/rogue/hexstone,
 /area/rogue/outdoors/woods)
+"AV" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "AW" = (
 /obj/structure/closet/crate/drawer{
 	pixel_x = -3
@@ -767,11 +959,12 @@
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
 "Be" = (
-/obj/structure/table/wood{
-	icon_state = "tablewood1"
+/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated{
+	faction = list("undead")
 	},
-/turf/open/floor/rogue/ruinedwood,
-/area/rogue/indoors)
+/obj/machinery/light/rogue/wallfire/candle/blue/l,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "Bf" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 1
@@ -781,16 +974,31 @@
 /obj/machinery/light/rogue/forge,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"Bx" = (
+/turf/open/transparent/openspace,
+/area/rogue/indoors/town/manor)
+"BN" = (
+/obj/structure/fluff/statue/knight/interior,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "CQ" = (
 /obj/machinery/light/rogue/smelter,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"CR" = (
+/obj/structure/fermenting_barrel/wine,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "Dc" = (
 /obj/structure/stairs/stone{
 	dir = 1
 	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"Dh" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "Do" = (
 /obj/structure/flora/roguegrass,
 /obj/machinery/light/rogue/torchholder/r,
@@ -801,6 +1009,11 @@
 	dir = 8
 	},
 /area/rogue/under/cavewet)
+"Ea" = (
+/obj/machinery/light/rogue/wallfire/candle/blue/l,
+/obj/structure/bed/rogue,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "El" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -815,6 +1028,11 @@
 "EK" = (
 /turf/closed/mineral/random/rogue/med,
 /area/rogue/under/cavewet)
+"EM" = (
+/obj/machinery/light/rogue/wallfire/candle/blue/l,
+/obj/machinery/light/rogue/wallfire/candle/blue/r,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "Fg" = (
 /obj/structure/rack/rogue,
 /turf/open/floor/rogue/blocks,
@@ -850,6 +1068,10 @@
 /obj/item/ingot/iron,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"GI" = (
+/obj/machinery/light/rogue/wallfire/candle/blue/l,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "GQ" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 4
@@ -859,10 +1081,19 @@
 /turf/open/water/swamp,
 /area/rogue/outdoors/woods)
 "Hf" = (
-/obj/structure/closet/crate/roguecloset,
-/obj/item/slimepotion/lovepotion,
+/obj/structure/closet/crate/chest,
+/obj/item/rogueweapon/shovel/small,
+/obj/item/fishingrod,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
+"Hi" = (
+/obj/structure/closet/crate/chest,
+/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried,
+/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried,
+/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried,
+/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "Hw" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -882,6 +1113,12 @@
 "HR" = (
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
+"Ie" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/mountains)
 "Iq" = (
 /obj/structure/closet/crate/chest/lootbox,
 /turf/open/floor/rogue/dirt/road,
@@ -896,6 +1133,10 @@
 /obj/structure/flora/roguetree/burnt,
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/woods)
+"Jj" = (
+/obj/machinery/light/rogue/wallfire/candle/blue,
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/town)
 "Jp" = (
 /obj/structure/closet/crate/drawer{
 	pixel_x = -3
@@ -903,6 +1144,10 @@
 /obj/item/reagent_containers/glass/bottle/rogue/healthpot,
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
+"JF" = (
+/obj/structure/bed/rogue/shit,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "JM" = (
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
@@ -928,7 +1173,11 @@
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/woods)
 "Mo" = (
-/obj/structure/chair/wood/rogue,
+/obj/structure/closet/crate/chest,
+/obj/item/storage/roguebag,
+/obj/item/natural/worms/grubs,
+/obj/item/natural/worms/grubs,
+/obj/item/natural/worms/grubs,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
 "Mw" = (
@@ -936,6 +1185,9 @@
 	dir = 4
 	},
 /area/rogue/outdoors/mountains)
+"MF" = (
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/town)
 "MH" = (
 /obj/machinery/light/rogue/torchholder{
 	dir = 4
@@ -959,11 +1211,38 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
+"Ob" = (
+/obj/item/shard,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
+"Of" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/town)
 "Ou" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 1
 	},
 /area/rogue/indoors)
+"Ox" = (
+/turf/closed/wall/mineral/rogue/decostone/cand,
+/area/rogue/indoors/town/manor)
+"OZ" = (
+/obj/structure/closet/crate/drawer{
+	pixel_x = -3
+	},
+/obj/item/slimepotion/lovepotion,
+/obj/item/slimepotion/lovepotion,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "Pk" = (
 /obj/structure/rack/rogue,
 /obj/effect/decal/cleanable/cobweb,
@@ -980,6 +1259,26 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
+"PV" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
+"Qt" = (
+/obj/structure/table/wood,
+/obj/structure/bars{
+	icon_state = "barsbent";
+	layer = 2.81
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/town/manor)
+"QC" = (
+/turf/open/water/cleanshallow,
+/area/rogue/outdoors/town)
+"QI" = (
+/turf/closed/wall/mineral/rogue/stone,
+/area/rogue/indoors/town/manor)
 "QV" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -1017,6 +1316,21 @@
 /obj/item/rogueweapon/whip,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"Sm" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/mountains)
 "Su" = (
 /obj/structure/closet/crate/drawer{
 	pixel_x = -3
@@ -1031,11 +1345,35 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
+"Tt" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/adventurer/crusader;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Crusader"
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "TU" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/thresher,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"Uo" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "UK" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -1043,6 +1381,21 @@
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
+"UM" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/mountains)
 "Vd" = (
 /turf/closed/wall/mineral/rogue/wood,
 /area/rogue/under/cavewet)
@@ -1050,6 +1403,21 @@
 /obj/structure/mineral_door/wood/red,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"VW" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/transparent/openspace,
+/area/rogue/outdoors/mountains)
+"Wb" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated{
+	faction = list("undead")
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
 "Ww" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
@@ -1059,12 +1427,30 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
+"WK" = (
+/turf/open/floor/rogue/metal,
+/area/rogue/indoors/town/manor)
 "WW" = (
 /obj/item/reagent_containers/food/snacks/crow{
 	dir = 1
 	},
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/mountains)
+"Xa" = (
+/obj/structure/kybraxor{
+	redstone_id = "hearthstone3"
+	},
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Beggar"
+	},
+/turf/open/transparent/openspace,
+/area/rogue/indoors/town/manor)
 "Xg" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/rogue/grass,
@@ -1077,6 +1463,11 @@
 "XV" = (
 /turf/closed/wall/mineral/rogue/wood,
 /area/rogue/indoors)
+"XX" = (
+/obj/structure/flora/newtree,
+/obj/structure/flora/newtree,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/woods)
 "XZ" = (
 /turf/closed/wall/mineral/rogue/tent,
 /area/rogue/indoors)
@@ -1089,6 +1480,21 @@
 	dir = 1
 	},
 /area/rogue/outdoors/mountains)
+"Zb" = (
+/turf/closed/wall/mineral/rogue/stone/moss,
+/area/rogue/indoors/town/manor)
+"ZV" = (
+/obj/structure/gate/bars{
+	redstone_id = hearthstone2
+	},
+/turf/open/floor/rogue/metal,
+/area/rogue/indoors/town/manor)
+"ZW" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/woods)
 
 (1,1,1) = {"
 ae
@@ -81726,8 +82132,8 @@ ax
 ax
 ax
 ax
-ax
-ax
+ay
+ay
 bn
 bn
 bn
@@ -147262,9 +147668,9 @@ aO
 aO
 aO
 aO
-aO
-aO
-aO
+aQ
+aQ
+aQ
 aO
 aO
 aO
@@ -147519,9 +147925,9 @@ aO
 aO
 aO
 aO
-aO
-aO
-aO
+aQ
+aQ
+aQ
 aO
 aO
 aO
@@ -147776,9 +148182,9 @@ aO
 aO
 aO
 aO
-aO
-aO
-aO
+aQ
+aQ
+aQ
 aO
 aO
 aO
@@ -202537,23 +202943,23 @@ ab
 ab
 ab
 ac
+cj
+cj
+He
+ac
+ac
+cj
+cj
+cj
+cj
+cj
 ac
 ac
 ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
 ac
 ac
 ac
@@ -202793,28 +203199,28 @@ ac
 ac
 ac
 ac
+cj
+cj
+cj
+ac
+ac
+ac
+Xg
 ac
 ac
 ac
 ac
+cj
+cj
 ac
+cj
+cj
+He
+He
 ac
+Hy
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
 Ou
 kg
 Iq
@@ -203052,26 +203458,26 @@ ac
 ac
 ac
 ac
+He
+cj
+cj
 ac
 ac
 ac
 ac
 ac
 ac
+cj
+ac
+cj
+cj
+ac
+cj
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+Xg
 Ou
 lB
 Iq
@@ -203307,27 +203713,27 @@ ac
 ac
 ac
 ac
+Hy
+ac
+cj
+cj
+He
+ac
+He
+cj
 ac
 ac
+cj
+cj
 ac
+cj
+cj
+He
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+Xg
+Hy
 ac
 XV
 gh
@@ -203564,31 +203970,31 @@ ac
 ac
 ac
 ac
+cj
+cj
+ac
+He
+He
 ac
 ac
+cj
 ac
 ac
+cj
+cj
 ac
 ac
+cj
+Hy
+ac
+cj
+ac
+He
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+ab
+cj
+cj
 ac
 ab
 ab
@@ -203829,23 +204235,23 @@ ab
 ab
 ab
 ab
+He
+cj
+cj
+cj
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+Hy
+cj
 ac
 ac
 yv
 RA
 cb
-ac
-ac
-ac
+ab
+ab
+ab
 ac
 ab
 ab
@@ -204078,32 +204484,32 @@ ac
 ac
 ac
 ab
+He
+cj
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
 ab
+He
 ac
 ac
 ac
 ac
+cj
+He
 ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 km
 yv
 RA
 cb
-ac
-ac
-ac
-ac
+cj
+ab
+cj
+cj
 ac
 ab
 aa
@@ -204335,13 +204741,13 @@ ac
 ac
 ac
 ab
+He
+cj
+He
 ac
+Hy
 ac
-ac
-ac
-ac
-ac
-ac
+cj
 ab
 ab
 ab
@@ -204592,24 +204998,24 @@ ac
 ac
 ac
 ab
+He
+cj
 ac
 ac
+Xg
 ac
+cj
+Xg
+He
+cj
+He
+He
 ac
+He
+He
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 ab
 cj
 cj
@@ -204850,22 +205256,22 @@ ac
 ac
 ab
 ac
+cj
+He
+cj
+cj
+He
+cj
+cj
+Hy
+cj
+ac
+cj
+cj
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
 ac
 ab
 cj
@@ -205106,19 +205512,19 @@ al
 ac
 ac
 ab
+cj
+cj
+cj
+cj
+ac
+cj
+cj
+ac
+Hy
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+Hy
 ac
 ac
 ac
@@ -205363,24 +205769,24 @@ al
 ac
 ac
 ab
+cj
+cj
+cj
+cj
+cj
 ac
+cj
+cj
 ac
+cj
 ac
+Hy
+cj
+cj
+He
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
 ab
 cj
 cj
@@ -205620,23 +206026,23 @@ al
 al
 ac
 ab
+He
 ac
 ac
+cj
+cj
+cj
+cj
+Hy
 ac
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+He
+cj
+cj
+cj
+cj
+cj
 ac
 ab
 cj
@@ -205877,21 +206283,21 @@ al
 ac
 ac
 ab
+He
+cj
+cj
+He
+cj
 ac
+cj
+cj
+Hy
 ac
+cj
+He
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 ac
 ac
 ac
@@ -206135,13 +206541,13 @@ ac
 ac
 ab
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
+cj
+cj
+He
+cj
 cj
 He
 ac
@@ -206391,11 +206797,11 @@ ac
 ac
 ac
 ab
+iq
+cj
 ac
 ac
-ac
-ac
-ac
+cj
 ac
 ac
 ac
@@ -206648,14 +207054,14 @@ ac
 ac
 ac
 ab
+Xg
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
+cj
+He
+cj
+cj
 cj
 ac
 cj
@@ -206892,25 +207298,25 @@ ab
 ab
 ab
 ab
+cj
 ac
 ac
 ac
+cj
+cj
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
+cj
 ab
 ac
-ac
-ac
-ac
-ac
-ac
+Xg
+cj
+cj
+cj
+cj
 ac
 ac
 cj
@@ -207150,26 +207556,26 @@ ac
 ac
 ab
 ac
+cj
+cj
+cj
+iq
+cj
 ac
+cj
+cj
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
 ab
 ac
 ac
+He
+He
+cj
 ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 ac
 He
 He
@@ -207402,31 +207808,31 @@ ac
 ac
 ac
 ac
-al
-al
-ac
-ab
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
 ac
 ac
 ac
 ab
+Hy
+ac
+cj
+iq
+cj
+ac
+cj
+cj
 ac
 ac
+Hy
 ac
+ab
 ac
-ac
-ac
-ac
-ac
+cj
+He
+cj
+cj
+cj
+cj
+He
 ac
 He
 ac
@@ -207659,31 +208065,31 @@ ac
 ac
 ac
 ac
-al
-al
-ac
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
 ac
 ac
 ac
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+cj
 ac
-ac
-ac
-ac
-ac
+He
+cj
+cj
+cj
+cj
+He
 He
 ac
 ac
@@ -207916,31 +208322,31 @@ ac
 ac
 ac
 ac
-al
-al
 ac
 ac
 ac
+cj
+Xg
+He
+ac
+Xg
+ac
+ac
+cj
+cj
+cj
 ac
 ac
 ac
+Xg
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+Xg
+cj
+cj
+cj
+cj
+Hy
 cj
 cj
 cj
@@ -208173,29 +208579,29 @@ ac
 ac
 ac
 ac
-al
-al
+ac
+ac
+ac
+cj
+cj
+cj
+ac
+cj
+cj
+cj
+cj
+cj
+ac
+ac
+cj
+cj
+He
 ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+Xg
+cj
 ac
 ac
 He
@@ -208430,31 +208836,31 @@ ac
 ac
 ac
 ac
-al
-al
-ac
-al
 ac
 ac
 ac
 ac
+Hy
+ac
+cj
+ac
+cj
 ac
 ac
+He
+cj
+cj
+cj
+cj
+cj
 ac
 ac
+cj
 ac
+Hy
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 cj
 cj
 ac
@@ -208687,31 +209093,31 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
 ac
 ac
 ac
+cj
+cj
+cj
+He
+He
+He
+He
 ac
 ac
+cj
+cj
+Hy
 ac
 ac
+cj
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+He
+Hy
+cj
+cj
 ac
 He
 ac
@@ -208944,31 +209350,31 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
 ac
 ac
 ac
+cj
+He
+He
+He
+He
+He
+ac
+ac
+cj
+cj
+cj
+cj
+cj
+cj
+ac
+cj
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
 cj
 cj
 ac
@@ -209201,31 +209607,31 @@ ac
 ac
 ac
 ac
-al
-al
 ac
 ac
 ac
+He
+He
+He
+He
+He
+cj
 ac
+cj
 ac
+cj
+cj
+cj
+cj
 ac
+Hy
 ac
+cj
+cj
+cj
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
 ac
 cj
 ac
@@ -209458,31 +209864,31 @@ ac
 ac
 ac
 ac
-al
-al
 ac
 ac
 ac
+He
+He
+He
+cj
+cj
+cj
+cj
+Xg
+ac
+cj
+cj
+He
+cj
+cj
+cj
+ac
+cj
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 ac
 cj
 cj
@@ -209715,31 +210121,31 @@ ac
 ac
 ac
 ac
-al
-al
 ac
 ac
 ac
+He
+He
+ac
+Xg
+Hy
+cj
+ac
+Hy
 ac
 ac
+cj
+ac
+cj
 ac
 ac
+cj
 ac
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+He
 cj
 cj
 cj
@@ -209972,31 +210378,31 @@ ac
 ac
 ac
 ac
-al
-al
+ac
+ac
+ac
+ac
+cj
 ac
 ac
 ac
 ac
 ac
 ac
+Hy
+cj
+ac
+ac
+He
+ac
+cj
+ac
+cj
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 ac
 ac
 ac
@@ -210229,31 +210635,31 @@ ac
 ac
 ac
 ac
-al
-al
 ac
 ac
 ac
+cj
+cj
+cj
+Hy
+ac
+cj
+Xg
+He
+ac
+Hy
+ac
+cj
+cj
+cj
 ac
 ac
-al
+cj
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+XX
+cj
+cj
 cj
 cj
 ac
@@ -210489,28 +210895,28 @@ ac
 ac
 ac
 ac
+Hy
+cj
 ac
+cj
+Xg
+cj
+cj
+He
+cj
+Hy
+Xg
+Xg
+cj
+He
+cj
+He
 ac
+cj
 ac
-ac
-al
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+iq
+He
 ac
 ac
 ac
@@ -210746,27 +211152,27 @@ ac
 ac
 ac
 ac
+cj
+cj
 ac
+iq
 ac
+cj
 ac
-al
-al
+cj
 ac
+cj
+cj
+cj
 ac
+cj
+He
+He
+He
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 ac
 ac
 cj
@@ -211004,27 +211410,27 @@ ac
 ac
 ac
 ac
-ac
-ac
-al
-al
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-cj
 cj
 ac
 ac
+ac
+ac
+ac
+ac
+Hy
+cj
+ac
+Hy
+Hy
+ac
+He
+He
+ac
+cj
+cj
+cj
+cj
+cj
 ac
 cj
 ac
@@ -211043,7 +211449,7 @@ ac
 bX
 ac
 ac
-ac
+cj
 ab
 ab
 bh
@@ -211260,20 +211666,20 @@ ap
 ac
 ac
 ac
+cj
+Xg
+cj
+cj
+cj
+He
 ac
 ac
 ac
+cj
+cj
 ac
-al
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+He
+cj
 ac
 ac
 ac
@@ -211299,8 +211705,8 @@ Pw
 nC
 ac
 ac
-ac
-ac
+cj
+cj
 ab
 ab
 bh
@@ -211517,23 +211923,23 @@ ap
 ac
 ac
 ac
+He
+ac
+cj
+cj
 ac
 ac
 ac
-ac
-al
-ac
-ac
+He
+cj
 ac
 ac
-ac
-ac
-ac
-ac
-al
-al
-al
-ac
+He
+He
+He
+cj
+cj
+cj
 ac
 nC
 Pk
@@ -211555,9 +211961,9 @@ tT
 no
 nC
 cj
-ac
-ac
-ac
+cj
+He
+cj
 ab
 ab
 bh
@@ -211776,21 +212182,21 @@ ac
 ac
 ac
 ac
-ac
-ac
-al
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
+Xg
+cj
+cj
 ac
 ac
 ac
 ac
-al
+He
+He
+He
 ac
-ac
+cj
 cj
 Pw
 ol
@@ -211812,9 +212218,9 @@ HR
 AW
 Pw
 cj
-ac
-ac
-ac
+Hy
+iq
+cj
 ab
 ab
 bh
@@ -212031,21 +212437,21 @@ ap
 ac
 ap
 ac
+cj
+cj
+cj
+ac
+ac
+ac
+cj
+cj
+cj
+cj
 ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-al
-al
+He
 ac
 ac
 cj
@@ -212069,7 +212475,7 @@ HR
 no
 Pw
 cj
-ac
+cj
 ac
 ac
 ab
@@ -212273,7 +212679,13 @@ aa
 aa
 aa
 aa
-aa
+Zb
+Ox
+QI
+Zb
+Ox
+QI
+QI
 ap
 ap
 ap
@@ -212282,29 +212694,23 @@ ap
 ap
 ap
 ap
-ap
-ap
-ap
-ap
-ap
-ap
+He
+cj
+ac
+cj
 ac
 ac
+He
+cj
+cj
+cj
+ac
+cj
+cj
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-ac
+Hy
+Hy
 ac
 Pw
 ew
@@ -212326,8 +212732,8 @@ Nu
 Jp
 nC
 cj
-ac
-ac
+Xg
+cj
 ac
 ab
 ab
@@ -212530,38 +212936,38 @@ aa
 aa
 aa
 aa
-aa
-ap
-aa
-ap
-ap
-af
-ap
-ap
-ap
+Zb
+jA
+yc
+Zb
+Ea
+OZ
+QI
 ap
 ap
 ap
 ap
 ap
 ap
+ap
+ap
+He
+He
+cj
+cj
+cj
+Xg
+cj
+He
+cj
+ac
+ac
+He
 ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-ac
+cj
 ac
 nC
 nC
@@ -212583,8 +212989,8 @@ nC
 Pw
 nC
 cj
-ac
-ac
+cj
+cj
 ac
 ab
 aa
@@ -212787,38 +213193,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+QI
+qZ
+AV
+QI
+qZ
+qZ
+Zb
 ap
 ap
 ap
 ap
+cb
+cb
+cb
 ap
-ap
-ap
-ap
-ap
-ap
+aF
+ab
+aF
+bH
+RA
+cj
+cj
 ac
+Xg
+Hy
+He
+He
+He
+He
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-ac
+cj
 cj
 bX
 ac
@@ -212840,7 +213246,7 @@ cj
 cj
 xf
 ac
-ac
+Hy
 ac
 ac
 ab
@@ -213044,38 +213450,38 @@ ap
 aa
 aa
 aa
+QI
+Zb
+el
+Ox
+el
+Zb
+Zb
 aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+cb
+cb
+cb
 ap
-ap
-ap
-ap
+bH
+ab
+aF
+aF
+ZW
+ac
+cj
 ac
 ac
+He
+He
+He
+He
+He
+He
 ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-al
-ac
+cj
 cj
 ac
 cj
@@ -213098,8 +213504,8 @@ ab
 ab
 ab
 ac
-ac
-ac
+cj
+He
 ab
 aa
 bh
@@ -213301,38 +213707,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+QI
+Wb
+qZ
+GI
+qZ
+qZ
+QI
 aa
 aa
 aa
 ap
+cb
+cb
+cb
 ap
-ap
-ap
-ap
-ap
+aF
+ab
+bH
+aF
+RA
+cj
+cj
 ac
+He
+He
+He
+He
+iq
+He
+He
 ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-al
-ac
+cj
 ac
 cj
 ac
@@ -213355,7 +213761,7 @@ cj
 xf
 ab
 ac
-ac
+cj
 ac
 ab
 aa
@@ -213558,13 +213964,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Zb
+mn
+Wb
+qZ
+qZ
+qZ
+Zb
 aa
 ap
 ap
@@ -213573,23 +213979,23 @@ ap
 ap
 ap
 ap
-ap
+He
+cj
 ac
 ac
+cj
+Xg
+cj
+cj
+Hy
+cj
 ac
 ac
+cj
+He
 ac
-ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
-ac
+cj
+cj
 ac
 cj
 ac
@@ -213612,8 +214018,8 @@ lE
 iY
 ab
 ac
-ac
-ac
+cj
+af
 ac
 aa
 bh
@@ -213815,13 +214221,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-ap
-ap
-ap
+Zb
+Zb
+Zb
+QI
+QI
+Zb
+Zb
 ap
 ap
 ap
@@ -213830,23 +214236,23 @@ af
 ap
 ap
 ap
-ap
 ac
 ac
+Xg
 ac
+cj
+cj
+cj
 ac
+cj
 ac
+cj
 ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
-ac
+cj
+cj
+cj
+cj
+cj
 cj
 ac
 rB
@@ -213870,7 +214276,7 @@ lE
 ab
 ac
 ac
-ac
+cj
 ac
 aa
 bh
@@ -214087,7 +214493,7 @@ af
 ap
 ap
 ap
-ap
+He
 ac
 ac
 ac
@@ -214096,13 +214502,13 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
+cj
+cj
+ac
+cj
+cj
+cj
+Hy
 ac
 cj
 ac
@@ -214125,9 +214531,9 @@ vc
 vc
 vc
 ab
-ac
-ac
-ac
+cj
+cj
+He
 ac
 aa
 bh
@@ -214345,21 +214751,21 @@ ap
 ap
 ap
 ac
+cj
+ac
+cj
+Hy
+He
+cj
+Xg
+Xg
+He
+cj
+ac
+cj
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
 ac
 ac
 ac
@@ -214383,8 +214789,8 @@ vc
 VP
 ab
 ac
-ac
-ac
+cj
+cj
 ab
 aa
 bh
@@ -214601,23 +215007,23 @@ ap
 ap
 ap
 ap
+cj
+He
 ac
 ac
+He
+He
+cj
+cj
+cj
+cj
+ac
+cj
+cj
+cj
+cj
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-al
 ac
 cj
 Tf
@@ -214639,8 +215045,8 @@ uk
 TU
 lE
 mV
-ac
-ac
+He
+cj
 ac
 ab
 aa
@@ -214858,22 +215264,22 @@ ap
 ap
 ap
 ap
+cj
 ac
 ac
+cj
+cj
+cj
+ac
+cj
+cj
+ac
+cj
 ac
 ac
+He
 ac
 ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-al
 ac
 ac
 cj
@@ -214896,7 +215302,7 @@ lw
 lE
 iY
 cj
-ac
+cj
 ac
 ac
 ab
@@ -215115,23 +215521,23 @@ ap
 ap
 ap
 ap
+cj
+Hy
 ac
+cj
+cj
+Xg
+He
 ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
-ac
+cj
+cj
+cj
+He
+He
+Hy
+cj
+cj
+cj
 ac
 cj
 ac
@@ -215154,7 +215560,7 @@ ac
 ac
 cj
 ac
-ac
+cj
 ab
 ac
 ab
@@ -215374,26 +215780,26 @@ ap
 ap
 ac
 ac
+He
+ac
+cj
+cj
+ac
+cj
+ac
+cj
+cj
+cj
+iq
+He
+cj
 ac
 ac
+cj
 ac
-ac
-ac
-al
-ac
-al
-al
-al
-al
-al
-al
-al
-al
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+He
 ac
 ai
 ai
@@ -215408,8 +215814,8 @@ ac
 ac
 ac
 ac
-ac
-ac
+Hy
+Hy
 ac
 ac
 ab
@@ -215629,28 +216035,28 @@ ap
 ap
 ap
 ap
+cj
+cj
 ac
+cj
+Xg
+cj
+He
+cj
+cj
+cj
+cj
+He
+He
+He
+He
+cj
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-al
-al
-al
-al
-al
-al
-al
-al
-ac
-ac
-ac
-ac
-ac
+Hy
+cj
+He
+Hy
 ai
 ai
 ai
@@ -215665,10 +216071,10 @@ ai
 ai
 ai
 ai
-ac
-ac
-ac
-ac
+cj
+cj
+cj
+cj
 ab
 ac
 ab
@@ -215894,14 +216300,14 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -216152,13 +216558,13 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -216409,13 +216815,13 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -216666,13 +217072,13 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -216923,15 +217329,15 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ai
@@ -217173,7 +217579,6 @@ ac
 ac
 ac
 ac
-al
 ac
 ac
 ac
@@ -217182,9 +217587,10 @@ ac
 ac
 ac
 ac
-al
-al
-al
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -217428,12 +217834,12 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -217685,12 +218091,12 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -217942,13 +218348,13 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -217971,9 +218377,9 @@ ab
 ab
 iY
 lE
-rq
-sn
+lw
 lE
+rq
 iY
 ac
 ac
@@ -218196,17 +218602,17 @@ ac
 ac
 ac
 ac
-al
-al
 ac
-al
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -218229,8 +218635,8 @@ ac
 lE
 fF
 sn
+uB
 sn
-el
 lE
 Xg
 ab
@@ -218455,15 +218861,15 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -218484,8 +218890,8 @@ ai
 ab
 cj
 lE
-Be
-rc
+sn
+sn
 sn
 sn
 sn
@@ -218712,13 +219118,13 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -218970,12 +219376,12 @@ ac
 ac
 ac
 ac
-al
-al
-al
-al
-al
-al
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -218999,7 +219405,7 @@ ac
 ac
 iY
 lE
-lE
+lw
 lE
 lE
 iY
@@ -219229,7 +219635,7 @@ ac
 ac
 ac
 ac
-al
+ac
 ac
 ac
 ac
@@ -219486,7 +219892,7 @@ ac
 ac
 ac
 ac
-al
+ac
 ac
 ac
 ac
@@ -276789,7 +277195,7 @@ bp
 bp
 bp
 bp
-bq
+rc
 bp
 bp
 bp
@@ -277032,21 +277438,21 @@ bp
 bp
 bp
 bp
-bq
-bq
+rc
+rc
 bp
 bp
 bp
 bp
 bp
-bq
+rc
 bp
 bp
 bp
 bp
-bq
-bq
-bq
+rc
+rc
+rc
 bp
 bp
 bp
@@ -277288,21 +277694,21 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
 bp
 bp
-bq
-bq
+rc
+rc
 bp
 bp
 bp
-bq
-bq
-bq
+rc
+rc
+rc
 bp
 bp
 bp
@@ -277546,23 +277952,23 @@ bp
 bp
 bp
 bp
-bq
-bq
+rc
+rc
 bp
-bq
-bq
-bq
-bq
-bp
-bp
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
 bp
 bp
 bp
@@ -277804,22 +278210,22 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+Zb
+Zb
+Ox
+QI
+Ox
+QI
+QI
+dk
+BN
+uJ
+rc
 bp
 bp
 bp
@@ -278060,28 +278466,28 @@ bp
 bp
 bp
 bp
-bp
-bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+QI
+Hi
+GI
+Wb
+Be
+Wb
+Zb
+uJ
+dk
+dk
+Zb
+Zb
+QI
+QI
+Zb
+xz
 bp
 bp
 bp
@@ -278317,31 +278723,31 @@ bp
 bp
 bp
 bp
-bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+Zb
+CR
+eB
+qZ
+qZ
+qZ
+el
+uJ
+vq
+MF
+ZV
+Bx
+Bx
+Xa
+qx
+Sm
+Ie
+Ie
+VW
 bp
 bp
 bp
@@ -278574,31 +278980,31 @@ bp
 bp
 bp
 bp
-bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+QI
+qR
+qZ
+qZ
+qZ
+qZ
+Ox
+Jj
+MF
+MF
+WK
+Bx
+Bx
+Bx
+WK
+jL
+jL
+jL
+rv
 bp
 bp
 bp
@@ -278831,31 +279237,31 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+QI
+vV
+Tt
+Dh
+qZ
+qZ
+el
+MF
+jq
+uJ
+WK
+Bx
+Bx
+zI
+WK
+UM
+py
+py
+oE
 bp
 bp
 bp
@@ -279088,28 +279494,28 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+Zb
+mn
+EM
+Wb
+AQ
+Wb
+Zb
+dk
+uJ
+uJ
+QI
+Ob
+Qt
+cS
+Zb
+xz
 bp
 bp
 bp
@@ -279342,30 +279748,30 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+Zb
+QI
+Ox
+Zb
+Ox
+QI
+Zb
+dk
+Of
+QC
+QI
+rN
+PV
+yy
+cS
 bp
 bp
 bp
@@ -279598,31 +280004,31 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+kr
+dk
+dk
+fh
+tF
+tF
+tF
+cS
 bp
 bp
 bp
@@ -279859,27 +280265,27 @@ bp
 bp
 bp
 bp
-bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+JF
+Uo
+dk
+Zb
+lC
+tw
+fN
+cS
 bp
 bp
 bp
@@ -280116,27 +280522,27 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bp
-bp
-bp
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+QI
+QI
+QI
+Zb
+Zb
 bp
 bp
 bp
@@ -280373,24 +280779,24 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
 bp
 bp
 bp
@@ -280627,27 +281033,27 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
 bp
-bq
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
+rc
 bp
 bp
 bp
@@ -280882,27 +281288,27 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
+rc
 bp
-bq
-bq
+rc
+rc
 bp
 bp
 bp
@@ -281139,20 +281545,20 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
 bp
 bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
 bp
 bp
 bp
@@ -281396,20 +281802,20 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
 bp
 bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
 bp
 bp
 bp
@@ -281652,11 +282058,11 @@ bp
 bp
 bp
 bp
-bq
-bq
-bq
-bq
-bq
+rc
+rc
+rc
+rc
+rc
 bp
 bp
 bp
