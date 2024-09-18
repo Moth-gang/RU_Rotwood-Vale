@@ -424,7 +424,7 @@
 /area/rogue/outdoors/woods)
 "cS" = (
 /turf/closed/wall/mineral/rogue/wooddark/window,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "da" = (
 /obj/structure/bars/passage{
 	redstone_id = blacksmith1
@@ -450,33 +450,30 @@
 /obj/item/needle/thorn,
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors)
+"eh" = (
+/mob/living/carbon/human/species/skeleton/npc/ambush{
+	inertia_move_delay = 0;
+	STACON = 13;
+	STAEND = 13;
+	STASPD = 13;
+	STASTR = 13
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/under/cave/spider)
 "el" = (
 /obj/structure/mineral_door/wood/donjon/stone,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "ew" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/woodstaff,
 /obj/item/rogueweapon/woodstaff,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
-"eB" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/adventurer/crusader;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Crusader (2)";
-	gender = "female"
-	},
-/turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
 "fh" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "fo" = (
 /obj/structure/fluff/statue/tdummy{
 	name = "Zizo";
@@ -501,7 +498,7 @@
 	redstone_id = hearthstone1
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "fW" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/rogue/twig,
@@ -510,11 +507,31 @@
 /obj/structure/roguetent,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors)
+"gt" = (
+/mob/living/carbon/human/species/skeleton/npc/ambush{
+	inertia_move_delay = 0;
+	STACON = 13;
+	STAEND = 13;
+	STASPD = 13;
+	STASTR = 13
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "hm" = (
 /obj/structure/closet/dirthole/closed/loot,
 /obj/structure/gravemarker,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
+"hx" = (
+/mob/living/carbon/human/species/skeleton/npc/ambush{
+	inertia_move_delay = 0;
+	STACON = 13;
+	STAEND = 13;
+	STASPD = 13;
+	STASTR = 13
+	},
+/turf/open/transparent/openspace,
+/area/rogue/under/cave/spider)
 "iq" = (
 /obj/structure/flora/newtree,
 /turf/open/water/swamp,
@@ -527,18 +544,6 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
-"jq" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Beggar"
-	},
-/turf/open/water/cleanshallow,
-/area/rogue/outdoors/town)
 "jA" = (
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /obj/structure/closet/crate/drawer{
@@ -547,7 +552,7 @@
 /obj/item/natural/bundle/cloth,
 /obj/item/needle,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "jL" = (
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/mountains)
@@ -598,7 +603,7 @@
 	redstone_id = hearthstone2
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "lE" = (
 /turf/closed/wall/mineral/rogue/decowood,
 /area/rogue/indoors)
@@ -612,15 +617,7 @@
 "mn" = (
 /obj/structure/ladder,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
-"mC" = (
-/obj/structure/closet/crate/chest,
-/obj/item/seeds/wheat/oat,
-/obj/item/seeds/wheat/oat,
-/obj/item/seeds/potato,
-/obj/item/seeds/potato,
-/turf/open/floor/rogue/twig,
-/area/rogue/indoors)
+/area/rogue/under/cave/spider)
 "mV" = (
 /obj/machinery/light/rogue/torchholder{
 	pixel_y = 32
@@ -639,6 +636,22 @@
 /area/rogue/outdoors/woods)
 "nC" = (
 /turf/closed/wall/mineral/rogue/stone,
+/area/rogue/indoors)
+"nH" = (
+/obj/structure/closet/crate/chest,
+/obj/item/seeds/tomato{
+	name = "tomato seeds"
+	},
+/obj/item/seeds/tomato{
+	name = "tomato seeds"
+	},
+/obj/item/seeds/carrot{
+	name = "carrot seeds"
+	},
+/obj/item/seeds/carrot{
+	name = "carrot seeds"
+	},
+/turf/open/floor/rogue/twig,
 /area/rogue/indoors)
 "ol" = (
 /obj/structure/rack/rogue,
@@ -663,6 +676,18 @@
 	},
 /turf/open/transparent/openspace,
 /area/rogue/outdoors/mountains)
+"oL" = (
+/mob/living/carbon/human/species/skeleton/npc/no_equipment{
+	skel_outfit = /datum/outfit/job/roguetown/adventurer/blacksmith;
+	inertia_move_delay = 0;
+	STACON = 13;
+	STASPD = 13;
+	STASTR = 13;
+	STAEND = 13;
+	name = "Blacksmith"
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/under/cavewet)
 "py" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -688,25 +713,22 @@
 	redstone_id = hearthstone1
 	},
 /turf/open/floor/rogue/metal,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "qR" = (
 /obj/structure/chair/wood/rogue/throne,
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/adventurer/noble;
+/obj/structure/fluff/walldeco/bigpainting/lake,
+/mob/living/carbon/human/species/skeleton/npc/ambush{
 	inertia_move_delay = 0;
 	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
 	STAEND = 13;
-	name = "Noble";
-	gender = "female"
+	STASPD = 13;
+	STASTR = 13
 	},
-/obj/structure/fluff/walldeco/bigpainting/lake,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "qZ" = (
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "rc" = (
 /turf/closed/mineral/random/rogue,
 /area/rogue/outdoors/mountains)
@@ -730,7 +752,7 @@
 "rN" = (
 /obj/structure/fluff/wallclock,
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "rU" = (
 /turf/closed/wall/mineral/rogue/craftstone,
 /area/rogue/outdoors/mountains)
@@ -764,10 +786,18 @@
 /obj/machinery/light/rogue/torchholder{
 	dir = 8
 	},
-/obj/item/seeds/radish,
-/obj/item/seeds/radish,
-/obj/item/seeds/bean,
-/obj/item/seeds/bean,
+/obj/item/seeds/radish{
+	name = "radish seeds"
+	},
+/obj/item/seeds/radish{
+	name = "radish seeds"
+	},
+/obj/item/seeds/bean{
+	name = "bean seeds"
+	},
+/obj/item/seeds/bean{
+	name = "bean seeds"
+	},
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
 "tw" = (
@@ -775,10 +805,10 @@
 	dir = 8
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "tF" = (
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "tT" = (
 /obj/machinery/light/rogue/torchholder{
 	dir = 4
@@ -833,22 +863,13 @@
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
 "vq" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Beggar"
-	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/town)
 "vV" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/cup/steel,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "wk" = (
 /obj/machinery/anvil,
 /turf/open/floor/rogue/naturalstone,
@@ -887,7 +908,7 @@
 "yc" = (
 /obj/structure/bed/rogue,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "yv" = (
 /obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/grass,
@@ -899,24 +920,12 @@
 	redstone_id = "hearthstone3"
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "zt" = (
 /turf/open/floor/rogue/rooftop{
 	dir = 8
 	},
 /area/rogue/outdoors/mountains)
-"zI" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Beggar"
-	},
-/turf/open/transparent/openspace,
-/area/rogue/indoors/town/manor)
 "zK" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -932,22 +941,10 @@
 	},
 /obj/machinery/light/rogue/wallfire/candle/blue/r,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "AR" = (
 /turf/open/floor/rogue/hexstone,
 /area/rogue/outdoors/woods)
-"AV" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Beggar"
-	},
-/turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
 "AW" = (
 /obj/structure/closet/crate/drawer{
 	pixel_x = -3
@@ -964,7 +961,7 @@
 	},
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Bf" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 1
@@ -976,7 +973,7 @@
 /area/rogue/under/cavewet)
 "Bx" = (
 /turf/open/transparent/openspace,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "BN" = (
 /obj/structure/fluff/statue/knight/interior,
 /turf/open/floor/rogue/dirt/road,
@@ -988,7 +985,7 @@
 "CR" = (
 /obj/structure/fermenting_barrel/wine,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Dc" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -998,7 +995,7 @@
 "Dh" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Do" = (
 /obj/structure/flora/roguegrass,
 /obj/machinery/light/rogue/torchholder/r,
@@ -1013,7 +1010,7 @@
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /obj/structure/bed/rogue,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "El" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -1029,10 +1026,9 @@
 /turf/closed/mineral/random/rogue/med,
 /area/rogue/under/cavewet)
 "EM" = (
-/obj/machinery/light/rogue/wallfire/candle/blue/l,
 /obj/machinery/light/rogue/wallfire/candle/blue/r,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Fg" = (
 /obj/structure/rack/rogue,
 /turf/open/floor/rogue/blocks,
@@ -1043,10 +1039,18 @@
 /area/rogue/outdoors/woods)
 "Fp" = (
 /obj/structure/closet/crate/chest,
-/obj/item/seeds/tomato,
-/obj/item/seeds/tomato,
-/obj/item/seeds/carrot,
-/obj/item/seeds/carrot,
+/obj/item/seeds/wheat/oat{
+	name = "oat seeds"
+	},
+/obj/item/seeds/wheat/oat{
+	name = "oat seeds"
+	},
+/obj/item/seeds/potato{
+	name = "potato seeds"
+	},
+/obj/item/seeds/potato{
+	name = "potato seeds"
+	},
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
 "Fq" = (
@@ -1071,7 +1075,7 @@
 "GI" = (
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "GQ" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 4
@@ -1093,7 +1097,7 @@
 /obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried,
 /obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Hw" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -1129,6 +1133,10 @@
 /obj/item/rogueweapon/mace/woodclub/crafted,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors)
+"IY" = (
+/mob/living/simple_animal/hostile/rogue/dragger,
+/turf/open/floor/rogue/hexstone,
+/area/rogue/under/cave/spider)
 "Ja" = (
 /obj/structure/flora/roguetree/burnt,
 /turf/open/floor/rogue/grass,
@@ -1155,9 +1163,35 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"Kg" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/minotaur{
+	faction = list("undead");
+	STASTR = 20
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/under/cave/spider)
+"Ky" = (
+/obj/effect/landmark/start/adventurerlate{
+	dir = 1
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/woods)
 "KA" = (
 /obj/item/reagent_containers/food/snacks/crow,
 /turf/open/floor/rogue/ruinedwood,
+/area/rogue/outdoors/mountains)
+"KC" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/mob/living/carbon/human/species/skeleton/npc/ambush{
+	inertia_move_delay = 0;
+	STACON = 13;
+	STAEND = 13;
+	STASPD = 13;
+	STASTR = 13
+	},
+/turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/mountains)
 "KI" = (
 /turf/open/floor/rogue/naturalstone,
@@ -1214,19 +1248,7 @@
 "Ob" = (
 /obj/item/shard,
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
-"Of" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Beggar"
-	},
-/turf/open/floor/rogue/dirt,
-/area/rogue/outdoors/town)
+/area/rogue/under/cave/spider)
 "Ou" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 1
@@ -1234,7 +1256,7 @@
 /area/rogue/indoors)
 "Ox" = (
 /turf/closed/wall/mineral/rogue/decostone/cand,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "OZ" = (
 /obj/structure/closet/crate/drawer{
 	pixel_x = -3
@@ -1242,7 +1264,7 @@
 /obj/item/slimepotion/lovepotion,
 /obj/item/slimepotion/lovepotion,
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Pk" = (
 /obj/structure/rack/rogue,
 /obj/effect/decal/cleanable/cobweb,
@@ -1264,7 +1286,7 @@
 	dir = 8
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Qt" = (
 /obj/structure/table/wood,
 /obj/structure/bars{
@@ -1272,13 +1294,13 @@
 	layer = 2.81
 	},
 /turf/open/floor/rogue/cobble,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "QC" = (
 /turf/open/water/cleanshallow,
 /area/rogue/outdoors/town)
 "QI" = (
 /turf/closed/wall/mineral/rogue/stone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "QV" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -1291,12 +1313,6 @@
 /obj/item/seeds/tea,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
-"Ra" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/adventurer/blacksmith
-	},
-/turf/open/floor/rogue/naturalstone,
-/area/rogue/under/cavewet)
 "Rj" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/mace/wsword,
@@ -1316,21 +1332,6 @@
 /obj/item/rogueweapon/whip,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
-"Sm" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Beggar"
-	},
-/turf/open/floor/rogue/blocks,
-/area/rogue/outdoors/mountains)
 "Su" = (
 /obj/structure/closet/crate/drawer{
 	pixel_x = -3
@@ -1345,35 +1346,11 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
-"Tt" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/adventurer/crusader;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Crusader"
-	},
-/turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
 "TU" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/thresher,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
-"Uo" = (
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
-	inertia_move_delay = 0;
-	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
-	STAEND = 13;
-	name = "Beggar"
-	},
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/outdoors/town)
 "UK" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -1385,14 +1362,12 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+/mob/living/carbon/human/species/skeleton/npc/ambush{
 	inertia_move_delay = 0;
 	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
 	STAEND = 13;
-	name = "Beggar"
+	STASPD = 13;
+	STASTR = 13
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/mountains)
@@ -1403,6 +1378,13 @@
 /obj/structure/mineral_door/wood/red,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"VS" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated{
+	faction = list("undead");
+	pixel_x = -1
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue/under/cave/spider)
 "VW" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -1417,7 +1399,7 @@
 	faction = list("undead")
 	},
 /turf/open/floor/rogue/hexstone,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Ww" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
@@ -1429,7 +1411,7 @@
 /area/rogue/indoors)
 "WK" = (
 /turf/open/floor/rogue/metal,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "WW" = (
 /obj/item/reagent_containers/food/snacks/crow{
 	dir = 1
@@ -1440,17 +1422,15 @@
 /obj/structure/kybraxor{
 	redstone_id = "hearthstone3"
 	},
-/mob/living/carbon/human/species/skeleton/npc/no_equipment{
-	skel_outfit = /datum/outfit/job/roguetown/vagrant/wise;
+/mob/living/carbon/human/species/skeleton/npc/ambush{
 	inertia_move_delay = 0;
 	STACON = 13;
-	STASPD = 13;
-	STASTR = 13;
 	STAEND = 13;
-	name = "Beggar"
+	STASPD = 13;
+	STASTR = 13
 	},
 /turf/open/transparent/openspace,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "Xg" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/rogue/grass,
@@ -1482,13 +1462,23 @@
 /area/rogue/outdoors/mountains)
 "Zb" = (
 /turf/closed/wall/mineral/rogue/stone/moss,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
+"Zy" = (
+/mob/living/carbon/human/species/skeleton/npc/ambush{
+	inertia_move_delay = 0;
+	STACON = 13;
+	STAEND = 13;
+	STASPD = 13;
+	STASTR = 13
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/town)
 "ZV" = (
 /obj/structure/gate/bars{
 	redstone_id = hearthstone2
 	},
 /turf/open/floor/rogue/metal,
-/area/rogue/indoors/town/manor)
+/area/rogue/under/cave/spider)
 "ZW" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -137944,7 +137934,7 @@ KI
 FV
 KI
 KI
-Ra
+oL
 KI
 da
 KI
@@ -213195,9 +213185,9 @@ aa
 aa
 QI
 qZ
-AV
+Kg
 QI
-qZ
+Kg
 qZ
 Zb
 ap
@@ -213453,7 +213443,7 @@ aa
 QI
 Zb
 el
-Ox
+QI
 el
 Zb
 Zb
@@ -213708,9 +213698,9 @@ aa
 aa
 aa
 QI
-Wb
+IY
 qZ
-GI
+qZ
 qZ
 qZ
 QI
@@ -213966,8 +213956,8 @@ aa
 aa
 Zb
 mn
-Wb
-qZ
+IY
+EM
 qZ
 qZ
 Zb
@@ -214224,7 +214214,7 @@ aa
 Zb
 Zb
 Zb
-QI
+Ox
 QI
 Zb
 Zb
@@ -214268,8 +214258,8 @@ ab
 ac
 cm
 lE
-mC
 Fp
+nH
 Su
 uX
 lE
@@ -216331,8 +216321,8 @@ ai
 ai
 ai
 ai
-ac
-ab
+cj
+cj
 ac
 ab
 bh
@@ -216845,8 +216835,8 @@ ai
 ai
 ai
 ai
-ac
-ac
+cj
+cj
 ab
 ab
 bh
@@ -217103,7 +217093,7 @@ ai
 ai
 ai
 ac
-ac
+cj
 ab
 ab
 bh
@@ -217359,8 +217349,8 @@ ai
 ai
 ai
 ai
-ac
-ac
+cj
+cj
 ab
 ab
 bh
@@ -217615,9 +217605,9 @@ ai
 ai
 ai
 ai
-ac
-ac
-ac
+He
+cj
+cj
 ab
 ab
 bh
@@ -218388,7 +218378,7 @@ ai
 ai
 ai
 ac
-ac
+cj
 ab
 ab
 bh
@@ -218644,8 +218634,8 @@ ai
 ai
 ai
 ai
-ac
-ac
+cj
+cj
 ab
 ab
 bh
@@ -219158,8 +219148,8 @@ ai
 ai
 ai
 ai
-ac
-ac
+cj
+cj
 ab
 ab
 bh
@@ -219672,7 +219662,7 @@ ai
 ai
 ai
 ai
-ac
+He
 ac
 ab
 ab
@@ -219929,8 +219919,8 @@ ai
 ai
 ai
 ai
-ac
-ac
+cj
+cj
 ab
 ab
 bh
@@ -220186,7 +220176,7 @@ ai
 ai
 ai
 ai
-ac
+cj
 ac
 ab
 ab
@@ -220442,9 +220432,9 @@ ai
 ai
 ai
 ai
-ac
-ac
-ac
+Xg
+cj
+cj
 ab
 ab
 bh
@@ -220699,7 +220689,7 @@ ai
 ai
 ai
 ai
-ac
+cj
 ac
 ac
 ab
@@ -220954,10 +220944,10 @@ ai
 ai
 ai
 ai
-ac
-ac
-ac
-ac
+cj
+cj
+cj
+cj
 ab
 ac
 ab
@@ -221211,10 +221201,10 @@ ai
 ai
 ai
 ai
-ac
-ac
-ac
-ac
+He
+Hy
+Xg
+cj
 ab
 ac
 ab
@@ -221468,9 +221458,9 @@ ai
 ai
 ai
 ai
-ac
-ac
-ac
+cj
+cj
+cj
 ac
 ab
 ac
@@ -221723,10 +221713,10 @@ ai
 ai
 ai
 ac
+cj
 ac
-ac
-ac
-ac
+cj
+cj
 ac
 ac
 ab
@@ -221980,12 +221970,12 @@ ai
 ai
 ai
 ac
+cj
 ac
 ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
 ab
 ac
 ab
@@ -222236,12 +222226,12 @@ ai
 ai
 ai
 ai
+cj
+cj
+Ky
 ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 ac
 ab
 ac
@@ -222485,19 +222475,19 @@ ac
 ac
 ac
 ac
+iq
+iq
+He
+He
 ac
+iq
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
+cj
+cj
 am
 am
 ac
@@ -222742,19 +222732,19 @@ ac
 ac
 ac
 ac
+iq
+ac
+cj
+ac
+ac
+Xg
 ac
 ac
 ac
+cj
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+cj
+cj
 am
 am
 am
@@ -223002,10 +222992,10 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
+cj
+cj
+cj
+Hy
 ac
 ac
 ac
@@ -278475,7 +278465,7 @@ rc
 QI
 Hi
 GI
-Wb
+qZ
 Be
 Wb
 Zb
@@ -278731,20 +278721,20 @@ rc
 rc
 Zb
 CR
-eB
+eh
 qZ
 qZ
 qZ
 el
-uJ
+gt
 vq
-MF
+Zy
 ZV
 Bx
 Bx
 Xa
 qx
-Sm
+KC
 Ie
 Ie
 VW
@@ -278989,7 +278979,7 @@ rc
 QI
 qR
 qZ
-qZ
+eh
 qZ
 qZ
 Ox
@@ -279245,18 +279235,18 @@ rc
 rc
 QI
 vV
-Tt
+eh
 Dh
 qZ
 qZ
 el
-MF
-jq
-uJ
+Zy
+QC
+gt
 WK
 Bx
 Bx
-zI
+hx
 WK
 UM
 py
@@ -279503,9 +279493,9 @@ rc
 Zb
 mn
 EM
-Wb
+qZ
 AQ
-Wb
+VS
 Zb
 dk
 uJ
@@ -279765,7 +279755,7 @@ Ox
 QI
 Zb
 dk
-Of
+dk
 QC
 QI
 rN
@@ -280279,7 +280269,7 @@ rc
 rc
 rc
 JF
-Uo
+uJ
 dk
 Zb
 lC
