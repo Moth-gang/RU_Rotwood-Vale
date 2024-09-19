@@ -418,8 +418,8 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
 "ct" = (
-/obj/structure/closet/dirthole/closed/loot,
 /obj/structure/gravemarker,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "cS" = (
@@ -518,8 +518,11 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/town)
 "hm" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
+/obj/structure/closet/dirthole/closed,
+/obj/structure/gravemarker{
+	name = "grave marker (Kad)";
+	desc = "Nobody wants to die."
+	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
 "hx" = (
@@ -695,11 +698,11 @@
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/mountains)
 "pA" = (
-/obj/structure/closet/dirthole/closed/loot,
 /obj/structure/gravemarker{
 	name = "grave marker (Rae)";
 	desc = "The name carved on the grave marker could be seen on bandit notices."
 	},
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "qn" = (
@@ -1022,6 +1025,10 @@
 "Eq" = (
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/mountains)
+"Er" = (
+/obj/structure/roguetent,
+/turf/closed,
+/area/rogue/under/cavewet)
 "EK" = (
 /turf/closed/mineral/random/rogue/med,
 /area/rogue/under/cavewet)
@@ -1262,7 +1269,7 @@
 	pixel_x = -3
 	},
 /obj/item/slimepotion/lovepotion,
-/obj/item/slimepotion/lovepotion,
+/obj/item/bomb,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/cave/spider)
 "Pk" = (
@@ -1279,6 +1286,11 @@
 /obj/item/clothing/cloak/tabard/crusader/pestra{
 	name = "tabard (Snowball)"
 	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/woods)
+"PR" = (
+/obj/structure/closet/dirthole/closed,
+/obj/structure/gravemarker,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods)
 "PV" = (
@@ -1307,10 +1319,18 @@
 	pixel_y = -1
 	},
 /obj/structure/closet/crate/chest,
-/obj/item/seeds/pipeweed,
-/obj/item/seeds/pipeweed,
-/obj/item/seeds/tea,
-/obj/item/seeds/tea,
+/obj/item/seeds/pipeweed{
+	name = "pipeweed seeds"
+	},
+/obj/item/seeds/pipeweed{
+	name = "pipeweed seeds"
+	},
+/obj/item/seeds/tea{
+	name = "tea seeds"
+	},
+/obj/item/seeds/tea{
+	name = "tea seeds"
+	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
 "Rj" = (
@@ -1351,6 +1371,10 @@
 /obj/item/rogueweapon/thresher,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors)
+"Ue" = (
+/obj/machinery/light/rogue/torchholder/l,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/under/cavewet)
 "UK" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -136647,10 +136671,10 @@ aK
 aK
 aK
 aK
-aK
-aK
-aK
-aK
+wQ
+Ue
+KI
+wx
 aK
 aK
 aK
@@ -136904,10 +136928,10 @@ aK
 aK
 aK
 aK
-aK
-aK
-aK
-aK
+wQ
+KI
+KI
+RB
 aK
 aK
 aK
@@ -137163,7 +137187,7 @@ aK
 aK
 Vd
 DM
-DM
+Er
 Vd
 aK
 aK
@@ -137415,8 +137439,8 @@ aK
 aK
 aK
 aK
-wQ
-wQ
+aK
+aK
 Vd
 uC
 CQ
@@ -137672,8 +137696,8 @@ aK
 aK
 aK
 aK
-wW
-KI
+aK
+aK
 Bf
 KI
 KI
@@ -137929,9 +137953,9 @@ aK
 aK
 aK
 aK
-KI
-KI
-FV
+aK
+aK
+Bf
 KI
 KI
 oL
@@ -138186,8 +138210,8 @@ aK
 aK
 aK
 aK
-wx
-RB
+aK
+aK
 Vd
 Bm
 wk
@@ -214511,7 +214535,7 @@ ac
 zK
 ac
 Fh
-ct
+PR
 ab
 Ye
 nC
